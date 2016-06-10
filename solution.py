@@ -36,40 +36,6 @@ def main():
         for column in range(0,longest):
             outputFile.write(output[row][column])
 
-
-
-
-
-
-
-    # # If length of individual line is shorter then count add spaces and
-    # # continue. Each time a longer string is reached store its size
-    # for line in range (0, len(everyLine)-1): #go through every line
-    #     numSpaces = 0
-    #     for index in range (0, len(everyLine[line])): #go thru every char in line
-    #         if (len(everyLine[line]) > len(everyLine[line-1])-numSpaces):
-    #             numSpaces += 1
-    #             output.append(" ")
-    #         else:
-    #             output.append(everyLine[index][line])
-    #     output.append("\n")
-    # print output
-    #
-    #
-    # # column = 0
-    # # columnLength = len(currLine[column]) - 1 # Length of columns in a line
-    # # output = []
-    # # while (column <= columnLength):
-    # #     for row in range(0,len(currLine)):
-    # #         print "Row Length:" + str(len(currLine))
-    # #         new = []
-    # #         new.append(currLine[row][column])
-    # #         output.append(new)
-    # #     column = column + 1
-    # #     newline = "\n"
-    # #     output.append(newline)
-    #
-
     inputFile.close()
     outputFile.close()
 
